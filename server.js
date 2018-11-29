@@ -3,9 +3,10 @@ const socketIO = require('socket.io');
 const fs = require('fs')
 const app = express();
 const moment = require('moment');
+var port = process.env.PORT || 8002;
 
 app.use(express.static('public'));
-var server = app.listen(8800, () => {
+var server = app.listen(port, () => {
     console.log('Server started');
 });
 

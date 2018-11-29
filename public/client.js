@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:8800')
+var socket = io.connect('https://shrouded-forest-10326.herokuapp.com')
 //Query DOM
 var message = document.getElementById('message');
 formElement = document.getElementById('formElement')
